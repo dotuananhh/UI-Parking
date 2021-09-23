@@ -1,22 +1,3 @@
-.html {
-  background: url(https://images.unsplash.com/photo-1600758208050-a22f17dc5bb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80)
-    no-repeat center center fixed;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-.container {
-  height: 80vh;
-  background: #ffb8b8;
-  border-radius: 25px;
-}
 .head {
   display: flex;
   margin: 20px 20px 0 20px;
@@ -24,6 +5,10 @@
   border-bottom: 1px solid #ffffff;
 }
 .button__head {
+  font-size: 20px;
+  font-family: Cambria;
+  font-weight: 800;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +21,10 @@
   margin: 0 15px;
 }
 .button__head--active {
+  font-size: 20px;
+  font-family: Cambria;
+  font-weight: 800;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,19 +38,7 @@
   background: #0be881;
 }
 .button__head:hover {
+  cursor: pointer;
   background: #ffdd59;
   transition: all 0.35s ease 0s;
-}
-h5 {
-  font-family: Cambria;
-
-  font-weight: 800;
-}
-.box {
-  margin: 0 20px;
-  display: flex;
-}
-.box__content {
-  flex-basis: 50%;
-  height: 70vh;
 }

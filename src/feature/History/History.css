@@ -1,0 +1,21 @@
+table,
+th,
+td {
+  border: 1px solid white;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+table{
+    background: cornsilk;
+}
+th{
+    font-size: 800;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
